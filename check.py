@@ -18,5 +18,5 @@ value = span_element.get_text()
 current_date = date.today().strftime("%Y-%m-%d")
 
 # Append the value and current date to the file
-with open("result.csv", "a") as file:
+with open("results.csv", "a") as file:
     file.write(f"{current_date},{value}\n")
